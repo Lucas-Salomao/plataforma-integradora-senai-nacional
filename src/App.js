@@ -9,6 +9,10 @@ function App() {
     <div className="App">
       <Header />
       <div class="saudacao">
+        <div class="greeting">
+          <h1>Olá, Lucas</h1>
+          <p>Precisa de algo pra hoje?</p>
+        </div>
         <div class="widgets">
           <WidgetCard text="Central de Carreira e Empregabilidade" icon="work" />
           <WidgetCard text="Plataforma de Aprendizagem" icon="factory" />

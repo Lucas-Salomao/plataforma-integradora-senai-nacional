@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   background-color: #61dafb;
-  height: 800px;
+  height: 8000px;
 }
 
 .App-logo {
@@ -41,11 +41,9 @@
 
 .widgets {
   display: flex;
-  flex-direction: row; /* Alinha os itens em linha */
-  justify-content: space-between; /* Distribui o espaço entre a logo e o avatar */
-  align-items: center; /* Alinha verticalmente ao centro */
-  height: 40px;
-  padding: 48px 48px 0 48px;
+align-items: center;
+gap: var(--M, 24px);
+align-self: stretch;
 }
 
 .saudacao {
@@ -53,8 +51,44 @@
   width: 900px;
   flex-direction: column;
   align-items: flex-start;
+  gap: var(--M, 24px);
   margin-top: 372px;
   margin-left: 510px;
   margin-right: 510px;
   padding: 0;
+}
+
+.saudacao h1 {
+  color: var(--Neutral-Neutral-700, #475157);
+  text-align: left;
+
+  /* heading-lg/bold */
+  font-family: "Neo Sans Pro";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 133.333% */
+  margin: 0;
+  padding: 0;
+}
+
+.saudacao p {
+  color: var(--Neutral-Neutral-600, #536167);
+  text-align: left;
+  margin: 0;
+  padding: 0;
+
+  /* title-xl/regular */
+  font-family: "Neo Sans Pro";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; /* 141.667% */
+}
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
 }
