@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    flex-direction: row; /* Alinha os itens em linha */
+    justify-content: space-between; /* Distribui o espaço entre a logo e o avatar */
+    align-items: center; /* Alinha verticalmente ao centro */ 
+    height: 40px;
+    padding: 48px 48px 0 48px;
+  }
+
+  .avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-image: url('../../../public/img/circle.svg');
+    background-position: center;
+    background-size: cover;
+    padding: 1px;
+  }
+
+  .avatar img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-top: 1px;
+  }

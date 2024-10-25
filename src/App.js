@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import WidgetCard from './components/Widgets/WidgetCard';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <div class="saudacao">
+        <div class="widgets">
+          <WidgetCard text="Central de Carreira e Empregabilidade" icon="work" />
+          <WidgetCard text="Plataforma de Aprendizagem" icon="factory" />
+          <WidgetCard text="Teste sua Compreensão Linguística" icon="record_voice_over" />
+        </div>
+      </div>
+
     </div>
   );
 }
