@@ -1,0 +1,10 @@
+.bottonBar {
+  display: inline-flex;
+  height: var(--XL, 48px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--XS, 12px);
+  flex-shrink: 0;
+  width: 100%;
+  margin-top: 44px;
+}

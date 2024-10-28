@@ -1,0 +1,116 @@
+@import url("https://fonts.cdnfonts.com/css/neo-sans-pro");
+@import url("https://fonts.cdnfonts.com/css/open-sans");
+
+.container {
+  display: flex;
+  padding: var(--XXXS, 4px);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: var(--XS, 12px);
+  background: var(
+    --Neutral-Neutral-Light-Overlay-300,
+    rgba(255, 255, 255, 0.3)
+  );
+  width: 900px;
+  height: 42px;
+  margin-top: 220px;
+}
+
+.btn-mic {
+  display: flex;
+  width: 34px;
+  height: 34px;
+  padding: var(--XXS, 8px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--XXS, 8px);
+  border-radius: var(--XXS, 8px);
+  background: var(
+    --Neutral-Neutral-Light-Overlay-400,
+    rgba(255, 255, 255, 0.4)
+  );
+}
+
+.icon-mic {
+  width: 18px;
+  height: 18px;
+  font-size: 18px;
+  background-color: #f5631a;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-anexo {
+  display: flex;
+  width: 34px;
+  height: 34px;
+  padding: var(--XXS, 8px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--XXS, 8px);
+  border-radius: var(--XXS, 8px);
+  background: var(
+    --Neutral-Neutral-Light-Overlay-400,
+    rgba(255, 255, 255, 0.4)
+  );
+}
+
+.icon-anexo {
+  width: 18px;
+  height: 18px;
+  font-size: 18px;
+  background-color: #f5631a;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-history {
+  display: flex;
+  width: 34px;
+  height: 34px;
+  padding: var(--XXS, 8px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--XXS, 8px);
+  border-radius: var(--XXS, 8px);
+  background: var(--Brand-Orange-600, #e84910);
+}
+
+.icon-history {
+  width: 18px;
+  height: 18px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.btn-group {
+  display: flex;
+  align-items: center;
+  gap: var(--XXXS, 4px);
+}
+
+.div-txt-input {
+  width: 100%;
+}
+
+.txt-input {
+  width: 100%;
+  color: var(--Neutral-Neutral-800, #3d4448);
+
+  /* body-md/regular */
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+
+  background-color: transparent; /* Define o fundo como transparente */
+  border: none; /* Remove a borda */
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.txt-input:focus {
+  outline: none;
+}
+
