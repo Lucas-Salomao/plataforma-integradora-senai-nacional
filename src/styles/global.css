@@ -41,28 +41,33 @@
 
 /* Definição de cores para o modo escuro */
 [data-theme="dark"] {
-  --cor-de-fundo-icon-user-profile-dafault: #f4f4f4;
-  --cor-icon-user-profile-dafault: #F5631A;
+  --cor-de-fundo-icon-user-profile-default: rgba(34, 39, 42, 0.70);
+  --cor-icon-user-profile-default: #F5631A;
   --cor-de-fundo-icon-user-profile-hover: #F8833F;
   --cor-icon-user-profile-hover: #FFFFFF;
 
-  --cor-de-fundo-icon-bottom-bar-dafault: #FFFFFFB2;
-  --cor-icon-bottom-bar-dafault: #F5631A;
+  --cor-de-fundo-icon-bottom-bar-default: rgba(34, 39, 42, 0.40);
+  --cor-icon-bottom-bar-default: #FFFFFF;
   --cor-de-fundo-icon-bottom-bar-hover: #F8833F;
   --cor-icon-bottom-bar-hover: #FFFFFF;
 
-  --cor-fundo-container-input-chat: rgba(255, 255, 255, 0.3);
+  --cor-fundo-btn-chat-history:#e84910;
+  --cor-icon-btn-chat-history:#ffffff;
+  --cor-txt-chat-input:#3d4448;
 
-  --gradiente-0:#d8edff 0%;
-  --gradiente-34:#54b2ff 34%;
-  --gradiente-52:#a7b5b9 52%;
-  --gradiente-82:#fbb076 82%;
+  --cor-fundo-container-input-chat: rgba(34, 39, 42, 0.30);
+  --cor-fundo-container-bottom-group:rgba(34, 39, 42, 0.30);
 
-  --cor-texto-card:#383e41;
-  --cor-de-fundo-card: rgba(255, 255, 255, 0.7);
+  --gradiente-0:#d8edff;
+  --gradiente-34:#54b2ff;
+  --gradiente-52:#a7b5b9;
+  --gradiente-82:#fbb076;
+
+  --cor-texto-card:#F5F5F5;
+  --cor-de-fundo-card: rgba(34, 39, 42, 0.70);
   --cor-de-fundo-card-hover:#FFF;
   --cor-box-shadow-card-hover:rgba(34, 39, 42, 0.20);
 
-  --cor-texto-h1:#475157;
-  --cor-texto-p:#536167;
+  --cor-texto-h1:#CBD4D6;
+  --cor-texto-p:#A7B5B9;
 }
