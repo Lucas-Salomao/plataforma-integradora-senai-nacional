@@ -3,19 +3,13 @@ import './UserBar.css'
 import ButtomUserBar from '../ButtomUserBar/ButtomUserBar';
 
 
-function UserBar() {
-    const [darkMode, setDarkMode] = useState(false); // Começa com modo claro
-
-    const toggleDarkMode = () => {
-        setDarkMode(!darkMode);
-    };
+function UserBar({ theme, toggleTheme }) {
     return (
-        <div className={`UserBar ${darkMode ? 'dark' : 'light'}`}>
+        <div className={`UserBar ${theme}`}>
             {/* <ButtomUserBar icon="notifications_unread" /> */}
             <ButtomUserBar
-                icon={darkMode ? 'light_mode' : 'dark_mode'}
-                onClick={toggleDarkMode}
-                
+                icon={theme === 'dark' ? 'light_mode' : 'dark_mode'}
+                onClick={toggleTheme}
             />
             <ButtomUserBar icon="account_circle" link='https://identidade.senai.br/minha-conta' />
         </div>

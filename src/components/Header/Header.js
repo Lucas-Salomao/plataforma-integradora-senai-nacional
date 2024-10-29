@@ -2,18 +2,16 @@ import './Header.css';
 import UserBar from '../UserBar/UserBar';
 
 
-function Header() {
+function Header({ theme, toggleTheme }) {
     return (
-        <div class="header">
-            <img src="/img/logo.svg" alt="Logo Senai Nacional" />
-            <div class='div-user-bar'>
-                <UserBar />
-                <div class='avatar'>
+        <div className="header">
+            <img className='logo' alt="Logo Senai Nacional" />
+            <div className='div-user-bar'>
+                <UserBar theme={theme} toggleTheme={toggleTheme} />
+                <div className='avatar'>
                     <img src="/img/avatar.svg" alt="Avatar" />
                 </div>
             </div>
-
-
         </div>
     )
 }

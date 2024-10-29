@@ -9,6 +9,20 @@
   width: 100%;
 }
 
+.header img {
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Versão light do logo (padrão) */
+.header .logo {
+  content: url("../../../public/img/logo-light.svg");
+}
+
+/* Versão dark do logo */
+[data-theme="dark"] .header .logo {
+  content: url('../../../public/img/logo-dark.svg');
+}
+
 .avatar {
   width: 42px;
   height: 42px;

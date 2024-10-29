@@ -63,3 +63,7 @@
   outline: none;
 }
 
+.txt-input::placeholder{
+  color: var(--cor-txt-chat-input);
+}
+

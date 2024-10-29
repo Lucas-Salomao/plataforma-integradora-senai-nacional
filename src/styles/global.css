@@ -42,7 +42,7 @@
 /* Definição de cores para o modo escuro */
 [data-theme="dark"] {
   --cor-de-fundo-icon-user-profile-default: rgba(34, 39, 42, 0.70);
-  --cor-icon-user-profile-default: #F5631A;
+  --cor-icon-user-profile-default: #FFFFFF;
   --cor-de-fundo-icon-user-profile-hover: #F8833F;
   --cor-icon-user-profile-hover: #FFFFFF;
 
@@ -53,7 +53,7 @@
 
   --cor-fundo-btn-chat-history:#e84910;
   --cor-icon-btn-chat-history:#ffffff;
-  --cor-txt-chat-input:#3d4448;
+  --cor-txt-chat-input:#FFFFFF;
 
   --cor-fundo-container-input-chat: rgba(34, 39, 42, 0.30);
   --cor-fundo-container-bottom-group:rgba(34, 39, 42, 0.30);
@@ -65,9 +65,10 @@
 
   --cor-texto-card:#F5F5F5;
   --cor-de-fundo-card: rgba(34, 39, 42, 0.70);
-  --cor-de-fundo-card-hover:#FFF;
-  --cor-box-shadow-card-hover:rgba(34, 39, 42, 0.20);
+  --cor-de-fundo-card-hover: rgba(34, 39, 42, 0.40);
+  --cor-box-shadow-card-hover:rgba(34, 39, 42, 0.70);
 
   --cor-texto-h1:#CBD4D6;
   --cor-texto-p:#A7B5B9;
 }
+

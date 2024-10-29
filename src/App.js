@@ -1,9 +1,8 @@
 import './styles/global.css'; 
 import './App.css';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { ThemeProvider } from 'styled-components';
-import { lightTheme, darkTheme } from './styles/themes'; 
 import Header from './components/Header/Header';
 import WidgetCard from './components/WidgetCard/WidgetCard';
 import ChatBar from './components/ChatBar/ChatBar';
@@ -12,9 +11,26 @@ import BottomBar from './components/BottomBar/BottomBar';
 
 
 function App() {
+  const [theme, setTheme] = useState('light');
+  
+  const toggleTheme = () => {
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(newTheme);
+    // Atualiza o data-theme no documento
+    document.documentElement.setAttribute('data-theme', newTheme);
+    // Atualiza o data-theme no App
+    document.querySelector('.App').setAttribute('data-theme', newTheme);
+  };
+
+  // Garante que o tema inicial está correto
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+    document.querySelector('.App').setAttribute('data-theme', theme);
+  }, []);
+
   return (
     <div className="App">
-      <Header />
+      <Header theme={theme} toggleTheme={toggleTheme} />
       <div class="groupSaudacaoChatBar">
         <div class="saudacao">
           <div class="greeting">
