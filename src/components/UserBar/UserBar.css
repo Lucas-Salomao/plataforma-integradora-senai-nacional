@@ -1,0 +1,8 @@
+.UserBar {
+  display: flex;
+  padding: 4px;
+  align-items: center;
+  gap: var(--XXXS, 4px);
+  border-radius: var(--XS, 12px);
+  background: var(--cor-fundo-container-bottom-group);
+}

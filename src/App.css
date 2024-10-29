@@ -7,7 +7,10 @@
 .App {
   min-height: 100vh;
   text-align: center;
-  /* background-color: #61dafb; */
+  background-image: url("../public/img/gradient1.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,7 +67,7 @@
 }
 
 .saudacao h1 {
-  color: var(--Neutral-Neutral-700, #475157);
+  color: var(--cor-texto-h1);
   text-align: left;
 
   /* heading-lg/bold */
@@ -78,7 +81,7 @@
 }
 
 .saudacao p {
-  color: var(--Neutral-Neutral-600, #536167);
+  color: var(--cor-texto-p);
   text-align: left;
   margin: 0;
   padding: 0;
@@ -105,16 +108,4 @@
   justify-content: center;
   align-items: flex-start;
   margin-top: 284px;
-}
-
-.background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: -1;
-  padding: 0;;
-  margin: 0;
-  object-fit: cover; 
 }

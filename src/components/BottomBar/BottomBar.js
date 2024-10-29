@@ -1,21 +1,21 @@
-import Bottom from '../Bottom/Bottom';
+import ButtonBottomBar from '../ButtonBottomBar/ButtonBottomBar';
 import './BottomBar.css'
 
 function BottomBar(){
     return(
         <div class='bottonBar'>
-            <Bottom />
-            <Bottom />
-            <Bottom />
-            <Bottom />
-            <Bottom />
-            <Bottom />
-            <Bottom />
-            <Bottom />
-            <Bottom />
-            <Bottom />
-            <Bottom />
-            <Bottom />
+            <ButtonBottomBar />
+            <ButtonBottomBar />
+            <ButtonBottomBar />
+            <ButtonBottomBar />
+            <ButtonBottomBar />
+            <ButtonBottomBar />
+            <ButtonBottomBar />
+            <ButtonBottomBar />
+            <ButtonBottomBar />
+            <ButtonBottomBar />
+            <ButtonBottomBar />
+            <ButtonBottomBar />
         </div>
     )
 };

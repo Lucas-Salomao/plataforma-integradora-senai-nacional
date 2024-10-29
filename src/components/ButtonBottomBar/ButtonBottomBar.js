@@ -1,6 +1,6 @@
-import './Bottom.css'
+import './ButtonBottomBar.css'
 
-function Bottom(){
+function ButtonBottomBar(){
     return(
         <div class='btn-app'>
             <span class="material-symbols-outlined icon-app">Add</span>
@@ -8,4 +8,4 @@ function Bottom(){
     )
 };
 
-export default Bottom;
+export default ButtonBottomBar;

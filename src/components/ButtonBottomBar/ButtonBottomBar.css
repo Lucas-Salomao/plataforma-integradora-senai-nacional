@@ -1,0 +1,32 @@
+.btn-app {
+  display: flex;
+  width: 36px;
+  height: 36px;
+  padding: var(--XXS, 8px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--XXS, 8px);
+  border-radius: var(--XXS, 8px);
+  background: var(--cor-de-fundo-icon-bottom-bar-default);
+}
+
+.icon-app {
+    width: 18px;
+    height: 18px;
+    font-size: 18px;
+    background-color: var(--cor-icon-bottom-bar-default);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-app:hover {
+  background-color: var(--cor-de-fundo-icon-bottom-bar-hover); /* Orange background on hover */
+  width: 48px;
+  height: 48px;
+  border-radius: var(--XXS, 12px);
+}
+
+.btn-app:hover .icon-app {
+  background-color: transparent; /* Remove icon background */
+  -webkit-text-fill-color: var(--cor-icon-bottom-bar-hover); /* White icon color */
+}

@@ -1,0 +1,32 @@
+.btn-user-bar {
+  display: flex;
+  width: 34px;
+  height: 34px;
+  padding: var(--XXS, 8px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--XXS, 8px);
+  border-radius: var(--XXS, 8px);
+  background: var(--cor-de-fundo-icon-user-profile-default);
+  text-decoration: none;
+  color: inherit; /* Inherit color from parent */
+  cursor: pointer; /* Display a pointer cursor on hover */
+}
+
+.icon-user-bar {
+  width: 18px;
+  height: 18px;
+  font-size: 18px;
+  background-color: var(--cor-icon-user-profile-default);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-user-bar:hover {
+  background-color: var(--cor-de-fundo-icon-user-profile-hover); /* Orange background on hover */
+}
+
+.btn-user-bar:hover .icon-user-bar {
+  background-color: transparent; /* Remove icon background */
+  -webkit-text-fill-color: var(--cor-icon-user-profile-hover); /* White icon color */
+}

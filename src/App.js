@@ -1,17 +1,19 @@
-import logo from './logo.svg';
+import './styles/global.css'; 
 import './App.css';
+import React, { useState } from 'react';
+import styled from 'styled-components';
+import { ThemeProvider } from 'styled-components';
+import { lightTheme, darkTheme } from './styles/themes'; 
 import Header from './components/Header/Header';
 import WidgetCard from './components/WidgetCard/WidgetCard';
 import ChatBar from './components/ChatBar/ChatBar';
 import BottomBar from './components/BottomBar/BottomBar';
-import { ReactComponent as BackgroundSVG } from './gradient.svg';
 
 
 
 function App() {
   return (
     <div className="App">
-      <BackgroundSVG className="background" />
       <Header />
       <div class="groupSaudacaoChatBar">
         <div class="saudacao">
@@ -27,7 +29,7 @@ function App() {
         </div>
         <ChatBar />
       </div>
-      <BottomBar />
+      {/* <BottomBar /> */}
     </div>
   );
 }
