@@ -16,7 +16,7 @@ function Header({ theme, toggleTheme }) {
             <div className='div-user-bar'>
                 <UserBar theme={theme} toggleTheme={toggleTheme} isOpen={isUserBarOpen}/>
                 <div className='avatar' onClick={toggleUserBar}>
-                    <img src="/img/avatar.svg" alt="Avatar" />
+                    <img src="../../../public/img/avatar.svg" alt="Avatar" />
                 </div>
             </div>
         </div>
