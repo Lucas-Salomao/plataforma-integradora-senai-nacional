@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/plataforma-integradora-senai-nacional/static/css/main.6b763957.css",
+    "main.js": "/plataforma-integradora-senai-nacional/static/js/main.ffa8d726.js",
+    "static/js/453.7c154d1f.chunk.js": "/plataforma-integradora-senai-nacional/static/js/453.7c154d1f.chunk.js",
+    "static/media/gradient-dark1.svg": "/plataforma-integradora-senai-nacional/static/media/gradient-dark1.b73af929fb0858ecd98a.svg",
+    "static/media/gradient-light1.svg": "/plataforma-integradora-senai-nacional/static/media/gradient-light1.add91bbbcbe0e61ea0a7.svg",
+    "static/media/logo-light.svg": "/plataforma-integradora-senai-nacional/static/media/logo-light.120a16c7c302f2cd5b22.svg",
+    "static/media/logo-dark.svg": "/plataforma-integradora-senai-nacional/static/media/logo-dark.32f782edc0035e2e8241.svg",
+    "index.html": "/plataforma-integradora-senai-nacional/index.html",
+    "static/media/circle.svg": "/plataforma-integradora-senai-nacional/static/media/circle.3e94042e884aba5f71ee.svg",
+    "main.6b763957.css.map": "/plataforma-integradora-senai-nacional/static/css/main.6b763957.css.map",
+    "main.ffa8d726.js.map": "/plataforma-integradora-senai-nacional/static/js/main.ffa8d726.js.map",
+    "453.7c154d1f.chunk.js.map": "/plataforma-integradora-senai-nacional/static/js/453.7c154d1f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b763957.css",
+    "static/js/main.ffa8d726.js"
+  ]
+}
