@@ -3,9 +3,9 @@ import './UserBar.css'
 import ButtomUserBar from '../ButtomUserBar/ButtomUserBar';
 
 
-function UserBar({ theme, toggleTheme }) {
+function UserBar({ theme, toggleTheme, isOpen }) {
     return (
-        <div className={`UserBar ${theme}`}>
+        <div className={`UserBar ${theme} ${isOpen ? 'open' : 'closed'}`}>
             {/* <ButtomUserBar icon="notifications_unread" /> */}
             <ButtomUserBar
                 icon={theme === 'dark' ? 'light_mode' : 'dark_mode'}

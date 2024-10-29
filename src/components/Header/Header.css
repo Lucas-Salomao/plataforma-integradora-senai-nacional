@@ -7,6 +7,7 @@
   padding: 0px 48px 0 48px;
   margin-top: 48px;
   width: 100%;
+  position: relative; /* Garante que o UserBar seja posicionado corretamente */
 }
 
 .header img {
@@ -31,6 +32,9 @@
   background-position: center;
   background-size: cover;
   padding: 2px;
+
+  cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
 .avatar img {
@@ -40,6 +44,12 @@
   padding: var(--space-1, 0px);
   justify-content: center;
   align-items: center;
+
+  transition: transform 0.3s ease;
+}
+
+.avatar:hover {
+  transform: scale(1.05);
 }
 
 .div-user-bar {

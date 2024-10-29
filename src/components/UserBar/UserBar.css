@@ -1,8 +1,32 @@
-.UserBar {
+/* .UserBar {
   display: flex;
   padding: 4px;
   align-items: center;
   gap: var(--XXXS, 4px);
   border-radius: var(--XS, 12px);
   background: var(--cor-fundo-container-bottom-group);
+} */
+
+.UserBar {
+  position: absolute;
+  right: 102px; /* Ajuste conforme necessário para ficar ao lado do avatar */
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  background: var(--cor-de-fundo-icon-user-profile-default);
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.UserBar.open {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.UserBar.closed {
+  opacity: 0;
+  transform: translateX(100%);
+  pointer-events: none; /* Impede interações enquanto está fechado */
 }
