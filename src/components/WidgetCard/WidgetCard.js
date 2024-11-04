@@ -3,11 +3,11 @@ import './WidgetCard.css';
 
 function WidgetCard({ text, icon }) {
     return (
-        <div class='card'>
+        <div className='card'>
             <div>
-                <span class="material-symbols-outlined gradient-icon">{icon}</span>
+                <span className="material-symbols-outlined gradient-icon">{icon}</span>
             </div>
-            <div class='textCard'>
+            <div className='textCard'>
                 <p>{text}</p>
             </div>
         </div>

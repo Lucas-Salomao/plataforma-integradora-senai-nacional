@@ -1,0 +1,26 @@
+.text-buttom {
+  display: flex;
+  width: 104px;
+  padding: var(--XXS, 8px) var(--XS, 12px);
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--XXS, 8px);
+  background: var(
+    --Neutral-Neutral-Light-Overlay-400,
+    rgba(255, 255, 255, 0.4)
+  );
+  text-decoration: none;
+  color: inherit; /* Inherit color from parent */
+  cursor: pointer; /* Display a pointer cursor on hover */
+}
+
+.textoBotao {
+  color: var(--Brand-Orange-Overlay-1000, #f5631a);
+
+  /* body-md/medium */
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+}

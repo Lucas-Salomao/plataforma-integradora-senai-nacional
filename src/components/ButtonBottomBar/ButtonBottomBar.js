@@ -2,8 +2,8 @@ import './ButtonBottomBar.css'
 
 function ButtonBottomBar(){
     return(
-        <div class='btn-app'>
-            <span class="material-symbols-outlined icon-app">Add</span>
+        <div className='btn-app'>
+            <span className="material-symbols-outlined icon-app">Add</span>
         </div>
     )
 };

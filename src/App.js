@@ -12,6 +12,7 @@ import BottomBar from './components/BottomBar/BottomBar';
 
 function App() {
   const [theme, setTheme] = useState('light');
+  const [showChatBar, setShowChatBar] = useState(true);
   
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
@@ -30,20 +31,20 @@ function App() {
 
   return (
     <div className="App">
-      <Header theme={theme} toggleTheme={toggleTheme} />
-      <div class="groupSaudacaoChatBar">
-        <div class="saudacao">
-          <div class="greeting">
+      <Header theme={theme} toggleTheme={toggleTheme} showChatBar={showChatBar}/>
+      <div className="groupSaudacaoChatBar">
+        <div className="saudacao">
+          <div className="greeting">
             <h1>Olá, Lucas</h1>
             <p>Precisa de algo pra hoje?</p>
           </div>
-          <div class="widgets">
+          <div className="widgets">
             <WidgetCard text="Central de Carreira e Empregabilidade" icon="work" />
             <WidgetCard text="Plataforma de Aprendizagem" icon="factory" />
             <WidgetCard text="Teste sua Compreensão Linguística" icon="record_voice_over" />
           </div>
         </div>
-        <ChatBar />
+        {showChatBar && <ChatBar />}
       </div>
       {/* <BottomBar /> */}
     </div>

@@ -3,7 +3,7 @@ import './BottomBar.css'
 
 function BottomBar(){
     return(
-        <div class='bottonBar'>
+        <div className='bottonBar'>
             <ButtonBottomBar />
             <ButtonBottomBar />
             <ButtonBottomBar />

@@ -36,6 +36,11 @@
 
   --cor-texto-h1:#475157;
   --cor-texto-p:#536167;
+
+  --Neutral-Neutral-Light-Overlay-400:rgba(255, 255, 255, 0.4);
+  --Brand-Orange-Overlay-1000: #f5631a;
+  --Brand-Orange-500: #F5631A;
+  --Neutral-Neutral-0: #FFF;
   
 }
 
@@ -65,10 +70,15 @@
 
   --cor-texto-card:#F5F5F5;
   --cor-de-fundo-card: rgba(34, 39, 42, 0.70);
-  --cor-de-fundo-card-hover: rgba(34, 39, 42, 0.40);
-  --cor-box-shadow-card-hover:rgba(34, 39, 42, 0.70);
+  --cor-de-fundo-card-hover: #22272A;
+  --cor-box-shadow-card-hover:rgba(255, 255, 255, 0.10);
 
   --cor-texto-h1:#CBD4D6;
   --cor-texto-p:#A7B5B9;
+
+  --Neutral-Neutral-Light-Overlay-400:rgba(255, 255, 255, 0.4);
+  --Brand-Orange-Overlay-1000: #f5631a;
+  --Brand-Orange-500: #F5631A;
+  --Neutral-Neutral-0: #FFF;
 }
 
