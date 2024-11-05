@@ -13,14 +13,63 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../public/img/gradient-light1.svg");
-  /* transition: background-image 0.1s ease; */
-  transition: background-image 0.05s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* background-image: url("../public/img/gradient-light1.svg"); */
+  background-image: 
+    url("../public/img/gradient-light1.svg"),
+    url("../public/img/gradient-light2.svg"),
+    url("../public/img/gradient-light3.svg"), 
+    url("../public/img/gradient-light4.svg");
+
+  transition: background-image 5s ease-in;
+  /* transition: background-image 0.05s cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+  animation: backgroundTransitionLight 60s infinite linear;
+}
+
+@keyframes backgroundTransitionLight {
+  0% {
+    background-image: url("../public/img/gradient-light1.svg");
+  }
+  25% {
+    background-image: url("../public/img/gradient-light2.svg");
+  }
+  50% {
+    background-image: url("../public/img/gradient-light3.svg");
+  }
+  75% {
+    background-image: url("../public/img/gradient-light4.svg");
+  }
+  100% {
+    background-image: url("../public/img/gradient-light1.svg");
+  }
+}
+
+@keyframes backgroundTransitionDark {
+  0% {
+    background-image: url("../public/img/gradient-dark1.svg");
+  }
+  25% {
+    background-image: url("../public/img/gradient-dark2.svg");
+  }
+  50% {
+    background-image: url("../public/img/gradient-dark3.svg");
+  }
+  75% {
+    background-image: url("../public/img/gradient-dark4.svg");
+  }
+  100% {
+    background-image: url("../public/img/gradient-dark1.svg");
+  }
 }
 
 /* Quando estiver no modo escuro */
 .App[data-theme="dark"] {
-  background-image: url("../public/img/gradient-dark1.svg");
+  /* background-image: url("../public/img/gradient-dark1.svg"); */
+  background-image:
+    url("../public/img/gradient-dark1.svg"),
+    url("../public/img/gradient-dark2.svg"),
+    url("../public/img/gradient-dark3.svg"),
+    url("../public/img/gradient-dark4.svg");
+    animation: backgroundTransitionDark 60s infinite linear;
 }
 
 .App-logo {
